@@ -28,7 +28,7 @@ inputs:
     type: File
   - id: admin
     type: string
-    default: "Preterm Birth - Vaginal Microbiome Organizers"  # TODO: enter admin username (they will become the archive owner)
+    default: "Preterm Birth - Vaginal Microbiome Organizers"
 
 # there are no output at the workflow engine level.  Everything is uploaded to Synapse
 outputs: []

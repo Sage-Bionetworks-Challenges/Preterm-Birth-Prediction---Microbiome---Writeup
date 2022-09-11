@@ -42,10 +42,11 @@ steps:
       - id: submissionid
         source: "#submissionId"
       - id: challengewiki
+        valueFrom: "syn26133770"
       - id: public
-         default: true
-       - id: admin
-         source: "#admin"
+        default: true
+      - id: admin
+        source: "#admin"
     out:
       - id: results
       - id: status

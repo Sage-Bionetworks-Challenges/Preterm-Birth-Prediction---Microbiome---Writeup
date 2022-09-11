@@ -42,9 +42,7 @@ steps:
       - id: submissionid
         source: "#submissionId"
       - id: challengewiki
-        valueFrom: "syn26133770"  # TODO: update to the Challenge's synID
-    # UNCOMMENT THE FOLLOWING IF NEEDED
-     - id: public
+      - id: public
          default: true
        - id: admin
          source: "#admin"
